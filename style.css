@@ -162,7 +162,6 @@ section {
     color: var(--card-text-primary);
     display: flex;
     flex-direction: column;
-    text-align: justify;
 
 }
 
@@ -182,7 +181,7 @@ section {
     padding: 24px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .project-card h3 {
@@ -196,6 +195,7 @@ section {
     margin-bottom: 16px;
     font-size: 14px;
     flex-grow: 1;
+    text-align: justify;
 }
 
 .project-tags {
