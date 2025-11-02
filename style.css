@@ -296,20 +296,31 @@ footer {
     }
 
     .hero {
-        flex-direction: column-reverse;
+        flex-direction: row;
         align-items: center;
-        text-align: center;
+        text-align: left;
         gap: 32px;
     }
 
     .hero-text h1 {
         font-size: 36px;
-        justify-content: center;
+        justify-content:left;
+    }
+
+    .hero-avatar img {
+        width: 140px;
+        height: 160px;
     }
 
     .hero-text .subtitle {
         font-size: 16px;
         max-width: 100%;
+        text-align: left;
+    }
+    
+    .hero-text .curious-btn {
+        padding: 3px 10px;
+        font-size: 14px;
     }
 
     #about h2, #projects h2 {
