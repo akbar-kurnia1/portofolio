@@ -74,6 +74,7 @@ section {
     border-radius: 18px;
     border: 1px solid var(--border-color);
     object-fit: cover;
+    margin-top: 10px;
 }
 
 .curious-btn {
@@ -284,7 +285,7 @@ footer {
     font-size: 14px;
 }
 
-/* Responsive design */
+/* ini bagian desain responsif, aku disable dulu karena belum nemu ide desain yang pas
 @media (max-width: 768px) {
     
     .container {
@@ -296,20 +297,15 @@ footer {
     }
 
     .hero {
-        flex-direction: row;
+        flex-direction: column-reverse;
         align-items: center;
-        text-align: left;
+        text-align: center;
         gap: 32px;
     }
 
     .hero-text h1 {
         font-size: 36px;
-        justify-content:left;
-    }
-
-    .hero-avatar img {
-        width: 140px;
-        height: 160px;
+        justify-content: center;
     }
 
     .hero-text .subtitle {
@@ -335,5 +331,4 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-}
-
+} */
