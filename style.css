@@ -145,7 +145,7 @@ section {
 #projects .projects-header p {
     color: var(--text-secondary);
     font-size: 18px;
-    text-align: left;
+    text-align: justify;
 }
 
 .project-grid {
@@ -167,7 +167,7 @@ section {
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform:translateY(-15px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
@@ -200,7 +200,6 @@ section {
 }
 
 .project-tags {
-    margin-bottom: 16px;
     margin-top: 16px;
 }
 
@@ -285,7 +284,7 @@ footer {
     font-size: 14px;
 }
 
-/* ini bagian desain responsif, aku disable dulu karena belum nemu ide desain yang pas
+/* Responsive Design
 @media (max-width: 768px) {
     
     .container {
@@ -331,4 +330,4 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-} */
+}
