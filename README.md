@@ -1,4 +1,4 @@
-# Web Portfolio
+# Web Portofolio
 
 ![Language](https://img.shields.io/badge/Language-HTML%20%26%20CSS-orange)
 ![Platform](https://img.shields.io/badge/Platform-Web%20Browser-blue)
